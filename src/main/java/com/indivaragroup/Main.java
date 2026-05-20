@@ -7,6 +7,7 @@ import com.indivaragroup.calculation.casting.KonversiTipeDataNumber;
 import com.indivaragroup.type.data.primitive.TypeDataNonPrimitive;
 import com.indivaragroup.type.data.array.TypeDataArray;
 import com.indivaragroup.movie.logic.PlayLIstEveryYear;
+import com.indivaragroup.activity.logic.ToDoActivityUI;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -75,6 +76,8 @@ public class Main {
 
         System.out.println("8. TO DO ACTIVITY");
         System.out.println("--------------------------------------------------------------");
+        ToDoActivityUI toDoActivityUI = new ToDoActivityUI();
+        toDoActivityUI.run();
         System.out.println("--------------------------------------------------------------");
 
     }
